@@ -36,7 +36,10 @@ function App() {
             <a href="#projects" className="btn btn--primary">
               View Projects
             </a>
-            <a href="/Edina_Toth_CV.pdf" className="btn btn--secondary">
+            <a 
+              href="/Edina_Toth_Levaine_CV.pdf" 
+              download
+              className="btn btn--secondary">
               Download CV
             </a>
           </div>
