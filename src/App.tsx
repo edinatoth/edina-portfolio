@@ -1,5 +1,6 @@
 import "./App.css";
 import heroImage from "./assets/edina_kep.png";
+import ProjectsSection from "./components/ProjectsSection";
 
 function App() {
   return (
@@ -43,7 +44,7 @@ function App() {
               rel="noopener noreferrer"
               className="btn btn--secondary"
             >
-            View CV Online
+              View CV Online
             </a>
 
             <a
@@ -61,6 +62,10 @@ function App() {
           <img src={heroImage} alt="Edina Tóth" className="hero__image" />
         </div>
       </header>
+
+      <main>
+        <ProjectsSection />
+      </main>
     </div>
   );
 }
