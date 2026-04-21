@@ -189,7 +189,10 @@ a {
 
   .hero__tags,
   .hero__actions {
-    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 10px;
   }
 
   .hero__imageWrapper {
