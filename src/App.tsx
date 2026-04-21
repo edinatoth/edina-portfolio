@@ -1,5 +1,6 @@
 import "./App.css";
-import heroImage from "./assets/hero.png";
+import heroImage from "./assets/edina_kep.png";
+import AboutSection from "./components/AboutSection";
 import Navbar from "./components/Navbar";
 import ProjectsSection from "./components/ProjectsSection";
 
@@ -69,18 +70,8 @@ function App() {
       <main>
         <ProjectsSection />
 
-        <section id="about" style={{ maxWidth: "1200px", margin: "0 auto", padding: "80px 0 40px" }}>
-          <h2>About</h2>
-          <p>
-            Senior Frontend Developer with 7+ years of experience building enterprise web applications using React, 
-            Angular, TypeScript and modern frontend architecture. Strong background in complex business platforms, 
-            enterprise systems, and MedTech / healthcare software environments. Experienced in translating Figma 
-            designs, analyst requirements, and business workflows into scalable, high-performance user interfaces. 
-            Proven expertise in state management, performance optimization, reusable component architecture, and Agile 
-            delivery across both healthcare and non-healthcare industries.
-          </p>
-        </section>
-
+        <AboutSection />
+        
         <section id="contact" style={{ maxWidth: "1200px", margin: "0 auto", padding: "40px 0 80px" }}>
           <h2>Contact</h2>
           <p>Email: tothedina88@gmail.com</p>
