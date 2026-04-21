@@ -7,6 +7,10 @@
   font-weight: 400;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -206,5 +210,14 @@ a {
 
   .hero__image {
     width: min(68vw, 300px);
+  }
+
+  .contact-link {
+    color: #d94f8a;
+    font-weight: 600;
+  }
+
+  .contact-link:hover {
+    opacity: 0.8;
   }
 } 
