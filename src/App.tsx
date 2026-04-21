@@ -1,6 +1,7 @@
 import "./App.css";
 import heroImage from "./assets/edina_kep.png";
 import AboutSection from "./components/AboutSection";
+import ContactSection from "./components/ContactSection";
 import Navbar from "./components/Navbar";
 import ProjectsSection from "./components/ProjectsSection";
 
@@ -69,25 +70,8 @@ function App() {
 
       <main>
         <ProjectsSection />
-
         <AboutSection />
-        
-        <section id="contact" style={{ maxWidth: "1200px", margin: "0 auto", padding: "40px 0 80px" }}>
-          <h2>Contact</h2>
-          <p>Email: tothedina88@gmail.com</p>
-          <p>
-            LinkedIn:{" "}
-            <a
-              className="contact-link"
-              href="https://www.linkedin.com/in/edina-t%C3%B3th-1679496b"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              linkedin.com/in/edina-tóth
-            </a>
-          </p>
-          <p>Phone number: +36304013944</p>
-        </section>
+        <ContactSection />
       </main>
     </div>
   );
