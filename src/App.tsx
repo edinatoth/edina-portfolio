@@ -44,7 +44,7 @@ function App() {
             </a>
 
             <a
-              href="/Edina_Toth_CV.pdf"
+              href="/Edina_Toth_Levaine_CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn--secondary"
